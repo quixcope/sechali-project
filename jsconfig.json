@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "strict": false,
+    "target": "ESNext",
+    "module": "esnext",
+    "allowSyntheticDefaultImports": true,
+    "noEmit": true,
+    "allowJs": true,
+    "jsx": "react-jsx",
+    "lib": ["dom", "ESNext"],
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "esModuleInterop": true
+  },
+  "exclude": [
+    "node_modules",
+    "build",
+    ".next",
+    "public/workbox**",
+    "public/sw**",
+    "public/worker**",
+    "public/fallback**",
+    "public/precache**"
+  ],
+  "include": [
+    "./src/",
+    "./components",
+    "./pages",
+    "./server",
+    "./config",
+    "./models",
+    "./server.js",
+    "helpers/countryendcity.js"
+  ]
+}

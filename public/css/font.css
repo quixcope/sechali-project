@@ -1,0 +1,180 @@
+@font-face {
+  font-family: "Gotham Book";
+  font-style: normal;
+  font-weight: 400;
+  src:
+    local("Gotham Book"),
+    url("../../files/invoices/uploads/fonts/GothamBook.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gotham Book Italic";
+  font-style: italic;
+  font-weight: 400;
+  src:
+    local("Gotham Book Italic"),
+    url("../../files/invoices/uploads/fonts/GothamBookItalic.woff")
+      format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gotham Light";
+  font-style: normal;
+  font-weight: 300;
+  src:
+    local("Gotham Light"),
+    url("../../files/invoices/uploads/fonts/GothamLight.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gotham Light Italic";
+  font-style: italic;
+  font-weight: 300;
+  src:
+    local("Gotham Light Italic"),
+    url("../../files/invoices/uploads/fonts/GothamLightItalic.woff")
+      format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gotham Medium";
+  font-style: normal;
+  font-weight: 500;
+  src:
+    local("Gotham Medium"),
+    url("../../files/invoices/uploads/fonts/GothamMedium.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gotham Medium_1";
+  font-style: normal;
+  font-weight: 500;
+  src:
+    local("Gotham Medium_1"),
+    url("../../files/invoices/uploads/fonts/GothamMedium_1.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gotham Medium Italic";
+  font-style: italic;
+  font-weight: 500;
+  src:
+    local("Gotham Medium Italic"),
+    url("../../files/invoices/uploads/fonts/GothamMediumItalic.woff")
+      format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gotham Bold";
+  font-style: normal;
+  font-weight: 700;
+  src:
+    local("Gotham Bold"),
+    url("../../files/invoices/uploads/fonts/GothamBold.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gotham-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src:
+    local("Gotham-Bold"),
+    url("../../files/invoices/uploads/fonts/Gotham-Bold.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gotham Bold Italic";
+  font-style: italic;
+  font-weight: 700;
+  src:
+    local("Gotham Bold Italic"),
+    url("../../files/invoices/uploads/fonts/GothamBoldItalic.woff")
+      format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gotham Black";
+  font-style: normal;
+  font-weight: 500;
+  src:
+    local("Gotham Black"),
+    url("../../files/invoices/uploads/fonts/Gotham-Black.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gotham Light";
+  font-style: normal;
+  font-weight: 500;
+  src:
+    local("Gotham Light"),
+    url("../../files/invoices/uploads/fonts/Gotham-Light.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gotham Thin";
+  font-style: normal;
+  font-weight: 500;
+  src:
+    local("Gotham Thin"),
+    url("../../files/invoices/uploads/fonts/Gotham-Thin.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gotham XLight";
+  font-style: normal;
+  font-weight: 500;
+  src:
+    local("Gotham XLight"),
+    url("../../files/invoices/uploads/fonts/Gotham-XLight.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gotham Book Italic";
+  font-style: italic;
+  font-weight: 500;
+  src:
+    local("Gotham Book Italic"),
+    url("../../files/invoices/uploads/fonts/Gotham-BookItalic.woff")
+      format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gotham Thin Italic";
+  font-style: italic;
+  font-weight: 500;
+  src:
+    local("Gotham Thin"),
+    url("../../files/invoices/uploads/fonts/Gotham-ThinItalic.woff")
+      format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gotham Ultra Italic";
+  font-style: italic;
+  font-weight: 500;
+  src:
+    local("Gotham Ultra"),
+    url("../../files/invoices/uploads/fonts/Gotham-UltraItalic.woff")
+      format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gotham XLight Italic";
+  font-style: italic;
+  font-weight: 500;
+  src:
+    local("Gotham XLight"),
+    url("../../files/invoices/uploads/fonts/Gotham-XLightItalic.woff")
+      format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gotham Rounded";
+  font-style: normal;
+  font-weight: 500;
+  src:
+    local("Gotham Rounded"),
+    url("../../files/invoices/uploads/fonts/Gotham-Rounded-Book.woff")
+      format("woff");
+  font-display: swap;
+}

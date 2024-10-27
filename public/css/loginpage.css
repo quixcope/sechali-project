@@ -1,0 +1,295 @@
+:root {
+  --yellow: #f1cf2a;
+  --gray: #4c5056;
+  --font-primary: "Gotham Book Italic", italic;
+}
+body {
+  background-color: #f4f4f4 !important;
+  font-family: var(--font-primary) !important;
+}
+.popup {
+  position: absolute;
+  width: max-content;
+  padding-left: 6px;
+  height: 28px;
+  background-color: var(--gray);
+  left: 0;
+  top: 68px;
+  z-index: 2;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5);
+  margin-bottom: 10px;
+}
+.popup p {
+  font-weight: bold;
+  color: white;
+  margin-right: 8px;
+}
+.container {
+  background-color: #4c5056;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.login_input .mantine-TextInput-input {
+  background-color: #2c2c2c;
+  border-color: rgb(145, 145, 145) rey;
+  font-size: 14px;
+  color: white;
+}
+
+.login_input .mantine-PasswordInput-innerInput {
+  background-color: #2c2c2c;
+  border-color: white;
+  font-size: 14px;
+  color: white;
+}
+
+.size-12 {
+  font-size: 12px !important;
+}
+
+.mailText * {
+  padding: 3px;
+  width: 100vw !important;
+  height: auto !important;
+}
+.mailText {
+  color: var(--gray);
+  font-size: 14px;
+}
+
+.buttons {
+  background-color: var(--gray) !important;
+  transition: 0.2s all linear;
+}
+
+.buttons:hover {
+  background-color: var(--yellow) !important;
+  color: var(--gray) !important;
+}
+
+.buttons.right {
+  margin-left: 6px;
+}
+
+.pagination-right {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 0px !important;
+}
+
+.mail-tr.unSelect-light:hover,
+.mail-tr.select-blue:hover {
+  background-color: #f4f4f4 !important;
+}
+.mail-tr.select-green td,
+.mail-tr.select-blue td,
+.email-table.dark .mail-tr.select-green td,
+.email-table.dark .mail-tr.select-blue td {
+  color: rgb(25, 0, 255) !important;
+}
+
+.mail-tr.show-menu td {
+  color: rgb(207, 117, 14) !important;
+}
+
+.mail-tr.select-green,
+.mail-tr.select-blue {
+  opacity: 0.9;
+}
+
+.email-table th,
+.email-table td {
+  color: rgb(74, 79, 85) !important;
+}
+
+.email-table.dark th,
+.email-table.dark td {
+  color: var(--color) !important;
+  border-color: var(--dark-mode-grey);
+}
+
+.menu {
+  font-size: 12px;
+  border-radius: 2px;
+  padding: 5px 0 5px 0;
+  width: 160px;
+  height: auto;
+  margin: 0;
+  position: absolute;
+  list-style: none;
+  box-shadow: 0 0 20px 0 #ccc;
+  z-index: 11000;
+}
+
+.menu.white {
+  background-color: #fff;
+}
+
+.menu.dark {
+  background-color: var(--dark-mode);
+}
+
+.menu.dark li,
+.menu.dark li:hover {
+  background-color: var(--dark-mode);
+  color: white;
+}
+
+.menu li {
+  padding: 0.2em 1em;
+  color: #000;
+  cursor: pointer;
+}
+
+.menu li:hover {
+  background-color: #f2f2f2;
+  border-left: 4px solid #ccc;
+}
+
+.root {
+  border-radius: var(--mantine-radius-sm);
+  background-color: light-dark(
+    var(--mantine-color-gray-0),
+    var(--mantine-color-dark-6)
+  );
+}
+
+.item {
+  background-color: light-dark(
+    var(--mantine-color-gray-0),
+    var(--mantine-color-dark-6)
+  );
+  border: rem(1px) solid transparent;
+  position: relative;
+  z-index: 0;
+  transition: transform 150ms ease;
+
+  &[data-active] {
+    transform: scale(1.03);
+    z-index: 1;
+    background-color: var(--mantine-color-body);
+    border-color: light-dark(
+      var(--mantine-color-gray-2),
+      var(--mantine-color-dark-4)
+    );
+    box-shadow: var(--mantine-shadow-md);
+    border-radius: var(--mantine-radius-md);
+  }
+}
+
+.chevron {
+  &[data-rotate] {
+    transform: rotate(-90deg);
+  }
+}
+.mail-div {
+  height: calc(100vh - 64px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mantine-Modal-header {
+  background-color: var(--yellow) !important;
+  height: 40px !important;
+  min-height: 40px !important;
+}
+.mantine-Modal-close:hover {
+  background-color: transparent !important;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5);
+}
+.mantine-Modal-inner > section {
+  background-color: #f4f4f4;
+}
+.mantine-Modal-inner > section > div {
+  max-height: 100% !important;
+}
+.button-form {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.mantine-Text-root {
+  font-size: 14px !important;
+  font-weight: 500;
+}
+.invoices-grid > div {
+  justify-content: space-between !important;
+}
+th {
+  text-wrap: nowrap;
+}
+::-webkit-scrollbar {
+  width: 6px;
+  border-radius: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--gray);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.pagination {
+  align-items: baseline;
+  color: var(--color);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 10px;
+  font-size: 14px;
+}
+
+.email-table > tbody > tr > td {
+  line-height: 1.1;
+  padding: 4px 2px 4px 2px;
+}
+
+.email-table > thead > tr > th {
+  padding: 4px 2px 4px 2px;
+}
+
+thead {
+  background-color: white !important;
+  position: sticky !important;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);
+  top: -1px !important;
+}
+.grid {
+  margin: 16px;
+}
+.grid > div {
+  margin: -16px;
+}
+.grid-div > div {
+  margin: 0;
+}
+@media print {
+  .none-print,
+  .mantine-Modal-header,
+  .mantine-Modal-header > button,
+  .customer-form {
+    display: none;
+  }
+}
+
+@page {
+  size: 300mm 470mm;
+  margin: 5mm;
+}

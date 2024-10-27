@@ -1,0 +1,167 @@
+.logModal .mantine-InputWrapper-label {
+  font-weight: bolder;
+}
+
+.customerModal .mantine-Modal-body {
+  padding: 40px;
+}
+
+.customerModal .mantine-Modal-body {
+  padding: 40px;
+}
+
+.supplierModal .mantine-InputWrapper-label {
+  font-weight: bolder;
+}
+
+.settingsRadioContainer .mantine-InputWrapper-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bolder;
+  font-size: 16px;
+  border-bottom: 1px solid #fad105;
+  margin-bottom: 5px;
+}
+
+.customer-form .mantine-Input-input {
+  border: 1px solid #fad105;
+}
+
+.customer-form .mantine-InputWrapper-label {
+  font-weight: bolder;
+}
+
+.deleteIcon {
+  position: absolute;
+  margin-bottom: 90px;
+  right: 18px;
+  transition: 0.2s all linear;
+  border-radius: 180px;
+}
+
+.deleteIcon:hover {
+  background-color: red;
+}
+
+.radioDivs {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 768px) {
+  .deleteIcon {
+    right: 12px;
+  }
+}
+
+@media only screen and (max-width: 994px) {
+  .settingColorContainer {
+    margin-right: 38px;
+  }
+  .settings-container {
+    margin: 0 auto 0 auto !important;
+  }
+}
+
+@media only screen and (max-width: 994px) {
+  .radioDivs {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    flex-direction: column;
+  }
+}
+
+.navMobileHeader {
+  position: relative;
+  border: none !important;
+}
+
+.navMobileContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  padding: 30px !important;
+  border: none !important;
+}
+
+.navMobileButton p {
+  text-align: left !important;
+  width: 100%;
+}
+
+.navMobileButton {
+  display: flex;
+  padding-left: 20px;
+  background-color: #fad105;
+  color: #4c5056;
+  width: 100%;
+  font-size: 20px;
+  transition: 0.2s all linear;
+}
+
+.navMobileButton.active {
+  background-color: #f4f4f4;
+  color: #4c5056;
+}
+
+.navMobileButton:hover {
+  background-color: #f4f4f4;
+  color: #4c5056;
+}
+.navMobileButtonClose {
+  transition: 0.2s all linear;
+}
+.navMobileButtonClose:hover {
+  background-color: rgb(255, 0, 0);
+  border-radius: 180px;
+}
+
+.settings-container {
+  margin: 100px auto 100px auto;
+}
+
+.settings-container .mantine-InputWrapper-label {
+  font-weight: bolder;
+}
+
+.tracking-total {
+  max-width: 850px;
+  border-bottom: 2px solid #fad105;
+  margin: auto;
+  text-align: center;
+}
+
+.payment-top-container p {
+  font-size: 14px;
+}
+
+.payment-top-container h4 {
+  font-size: 15px !important;
+}
+
+.customer-form-accordion .mantine-Accordion-content {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.customer-form-accordion p {
+  white-space: nowrap; /* Prevent wrapping before overflow */
+  overflow: hidden; /* Hide content that overflows the container */
+  text-overflow: ellipsis; /* Add ellipsis (...) for truncated content */
+}
+
+.attachment-pdf-modal .mantine-Modal-body {
+  padding: 0 !important;
+}
+.attachment-pdf-modal .mantine-Modal-content > div {
+  max-height: max-content;
+}
+.sheet-table thead th {
+  text-align: left;
+}

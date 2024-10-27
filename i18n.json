@@ -1,0 +1,5 @@
+{
+  "locales": ["en", "tr"],
+  "defaultLocale": "tr",
+  "pages": { "*": ["common", "operation"] }
+}
